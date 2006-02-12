@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Qucs
+Comment=An integrated circuit simulator
+Comment[pl]=Symulator uk³adów elektronicznych
+Icon=biast.png
+Exec=qucs
+Terminal=false
+Categories=Qt;Utility;Electronics;
+Type=Application
+# vi: encoding=utf-8
