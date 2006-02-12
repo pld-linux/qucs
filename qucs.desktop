@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Qucs
 Comment=An integrated circuit simulator
-Comment[pl]=Symulator uk³adów elektronicznych
+Comment[pl]=Symulator ukadÃ³w elektronicznych
 Icon=biast.png
 Exec=qucs
 Terminal=false
