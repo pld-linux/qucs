@@ -15,14 +15,14 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Qucs provides a GUI based on Qt for setting up electronical circuits,
 simulator, which is able to simulate the small- and large signal and
-noisebehaviour of microwave circuits. The results can be shown on
-aspecial presentation page in different formats (rect, polar,
-smith,tabular).
+noise behaviour of microwave circuits. The results can be shown on
+as pecial presentation page in different formats (rect, polar,
+smith, tabular).
 
 %description -l pl
-Qucs dostarczas GUI oparte o bibliotekê QT do symulacji uk³adów
+Qucs dostarczas GUI oparte o bibliotekê Qt do symulacji uk³adów
 elektronicznych, które umo¿liwia symulowanie ró¿nych sygna³ów i szumów
-w uk³adach scaloncyh. Rezultaty mog± byæ obrazowane jako specjalne
+w uk³adach scalonych. Wyniki mog± byæ obrazowane jako specjalne
 prezentacje w ró¿nych formatach.
 
 %prep
@@ -50,8 +50,8 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%attr(755,root,root) %{_bindir}/*
 %doc RELEASE README THANKS TODO AUTHORS NEWS
+%attr(755,root,root) %{_bindir}/*
 %{_datadir}/%{name}
 %{_mandir}/man?/*
 %{_desktopdir}/%{name}.desktop
