@@ -1,6 +1,6 @@
 Summary:	An integrated circuit simulator
-Summary(de):	Ein Schaltungs Simulator
-Summary(pl):	Symulator uk³adów elektronicznych
+Summary(de.UTF-8):   Ein Schaltungs Simulator
+Summary(pl.UTF-8):   Symulator ukÅ‚adÃ³w elektronicznych
 Name:		qucs
 Version:	0.0.10
 Release:	1
@@ -20,17 +20,17 @@ noise behaviour of microwave circuits. The results can be shown on as
 pecial presentation page in different formats (rect, polar, smith,
 tabular).
 
-%description -l de
+%description -l de.UTF-8
 Qucs liefert ein GUI dass auf Qt basiert und simuliert elektronische
-Schaltkreise, die es ermöglichen kleine und grosse Signale und
-Störgeräusche auf Mikro Chips zu simulieren. Die Resultate können in
-der Form von Präsentationen in diversen Formaten dargestellt werden.
+Schaltkreise, die es ermÃ¶glichen kleine und grosse Signale und
+StÃ¶rgerÃ¤usche auf Mikro Chips zu simulieren. Die Resultate kÃ¶nnen in
+der Form von PrÃ¤sentationen in diversen Formaten dargestellt werden.
 
-%description -l pl
-Qucs dostarczas GUI oparte o bibliotekê Qt do symulacji uk³adów
-elektronicznych, które umo¿liwiaj± symulowanie ró¿nych sygna³ów i
-szumów w uk³adach scalonych. Wyniki mog± byæ obrazowane jako specjalne
-prezentacje w ró¿nych formatach.
+%description -l pl.UTF-8
+Qucs dostarczas GUI oparte o bibliotekÄ™ Qt do symulacji ukÅ‚adÃ³w
+elektronicznych, ktÃ³re umoÅ¼liwiajÄ… symulowanie rÃ³Å¼nych sygnaÅ‚Ã³w i
+szumÃ³w w ukÅ‚adach scalonych. Wyniki mogÄ… byÄ‡ obrazowane jako specjalne
+prezentacje w rÃ³Å¼nych formatach.
 
 %prep
 %setup -q
