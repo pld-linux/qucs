@@ -1,6 +1,6 @@
 Summary:	An integrated circuit simulator
-Summary(de.UTF-8):   Ein Schaltungs Simulator
-Summary(pl.UTF-8):   Symulator układów elektronicznych
+Summary(de.UTF-8):	Ein Schaltungs Simulator
+Summary(pl.UTF-8):	Symulator układów elektronicznych
 Name:		qucs
 Version:	0.0.10
 Release:	1
