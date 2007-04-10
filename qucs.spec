@@ -10,7 +10,7 @@ Source0:	http://dl.sourceforge.net/qucs/%{name}-%{version}.tar.gz
 # Source0-md5:	2bc139dd30d4d9e83760bafb497f1654
 Source1:	%{name}.desktop
 URL:		http://www.kde-apps.org/content/show.php?content=21644
-BuildRequires:	qt-devel >= 3.1
+BuildRequires:	qt-devel >= 6:3.1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
