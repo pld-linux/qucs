@@ -2,12 +2,12 @@ Summary:	An integrated circuit simulator
 Summary(de.UTF-8):	Ein Schaltungs Simulator
 Summary(pl.UTF-8):	Symulator układów elektronicznych
 Name:		qucs
-Version:	0.0.11
+Version:	0.0.12
 Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/qucs/%{name}-%{version}.tar.gz
-# Source0-md5:	2bc139dd30d4d9e83760bafb497f1654
+# Source0-md5:	5df0550bb0bc295c9ab72991746d3adc
 Source1:	%{name}.desktop
 URL:		http://www.kde-apps.org/content/show.php?content=21644
 BuildRequires:	qt-devel >= 6:3.1
