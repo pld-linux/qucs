@@ -2,9 +2,8 @@
 Name=Qucs
 Comment=An integrated circuit simulator
 Comment[pl]=Symulator układów elektronicznych
-Icon=biast.png
+Icon=biast
 Exec=qucs
-Encoding=UTF-8
 Terminal=false
 Categories=Qt;Utility;Electronics;
 Type=Application
