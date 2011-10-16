@@ -10,6 +10,7 @@ Source0:	http://dl.sourceforge.net/qucs/%{name}-%{version}.tar.gz
 # Source0-md5:	c916502171d422ab168fe5fc681b29d8
 Source1:	%{name}.desktop
 Patch0:		%{name}-sqrt.patch
+Patch1:		%{name}-gcc.patch
 URL:		http://www.kde-apps.org/content/show.php?content=21644
 BuildRequires:	qt-devel >= 6:3.1
 BuildRequires:	qt-linguist
@@ -37,6 +38,7 @@ prezentacje w różnych formatach.
 %prep
 %setup -q
 %patch0 -p1
+%patch1 -p1
 
 %build
 export QTDIR="%{_prefix}"
